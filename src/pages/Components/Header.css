@@ -1,0 +1,60 @@
+.header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+    padding-left: 24px;
+    padding-right: 24px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.header_links {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo {
+    width: 173px;
+    height: 44px;
+}
+
+.loupe {
+    width: 20px;
+    height: 20px;
+    padding-right: 40px;
+}
+
+.text {
+    /* Texte Normal Regular - Desktop */
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    /* Dark Grey */
+    color: #333333;
+    padding-right: 40px;
+}
+
+.button {
+    width: 180px;
+    height: 58px;
+    /* White */
+    background: #FFFFFF;
+    /* Blue */
+    border: 1px solid #559BD1;
+    border-radius: 7px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 34px;
+    /* identical to box height, or 170% */
+    text-align: center;
+    /* Blue */
+    color: #559BD1;
+}
